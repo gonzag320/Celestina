@@ -29,13 +29,6 @@ header .conteiner h1:hover {
             background-color: rgb(209, 109, 109);
 }
 
-@media (min-width:320px) {
-    .menu-centro .ul-menu li a:hover{
-        border-style: none;
-        background-color: #211b4385;
-    }
-}
-
 /* "titulo" */          
 .conteiner{
             display: grid;
@@ -410,14 +403,6 @@ header .conteiner h1:hover {
             text-align: center;
 }
 
-@media (min-width:320px) {
-    .img-centro{
-        display: flex;
-flex-direction: column;
-margin-top: 60px;
-    }
-}
-
 .galeria-text {
             font-size: 35px;
 
@@ -497,8 +482,19 @@ margin-top: 60px;
     header{
         height: 356px;
     }
+    .menu-centro .ul-menu li a:hover{
+        border-style: none;
+        background-color: #211b4385;
+    }
+
     .usuario-contraseña {
                 display: none;
+    }
+
+    .img-centro{
+        display: flex;
+flex-direction: column;
+margin-top: 60px;
     }
 
     .ul-menu {
@@ -540,9 +536,6 @@ margin-top: 60px;
 }
 
 @media (min-width:375px){
-        body{
-            background-image: url(/images/fondo-index.jpg) ;
-        }
 
     header {
          height: 454px;
