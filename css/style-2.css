@@ -25,8 +25,15 @@ header .conteiner h1:hover {
 }
 
 .menu-centro .ul-menu li a:hover {
-    border-style:groove;
+            border-style:groove;
             background-color: rgb(209, 109, 109);
+}
+
+@media (min-width:320px) {
+    .menu-centro .ul-menu li a:hover{
+        border-style: none;
+        background-color: #211b4385;
+    }
 }
 
 /* "titulo" */          
@@ -402,6 +409,15 @@ header .conteiner h1:hover {
 .img-centro {
             text-align: center;
 }
+
+@media (min-width:320px) {
+    .img-centro{
+        display: flex;
+flex-direction: column;
+margin-top: 60px;
+    }
+}
+
 .galeria-text {
             font-size: 35px;
 
