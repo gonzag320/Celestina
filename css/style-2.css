@@ -538,7 +538,7 @@ margin-top: 60px;
 @media (min-width:375px){
 
     header {
-         height: 454px;
+         height: 373px;
     }
     .galeria-text {
         margin-top: 30px;
@@ -553,7 +553,7 @@ margin-top: 60px;
 
 @media (min-width:480px){
     header {
-        height: 164px;
+        height: 276px;
     }
     body {
         background-repeat: no-repeat;
