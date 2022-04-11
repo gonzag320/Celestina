@@ -540,10 +540,9 @@ margin-top: 60px;
 }
 
 @media (min-width:375px){
-
-    body {
-        background-color: #a945c7;
-    }
+        body{
+            background-image: url(/images/fondo-index.jpg) ;
+        }
 
     header {
          height: 454px;
