@@ -565,15 +565,37 @@ margin-top: 60px;
         display: flex;
         flex-direction: column;
     }
-    h1 {
-        text-align: center;
+    .conteiner h1 {
+        color: moccasin;
     }
+
+    .conteiner:hover {
+ background-color: transparent;
+    }
+
     .menu-centro .ul-menu {
         display: grid;
         grid-template-columns: repeat(3 , 1fr);
         grid-template-rows: repeat(2 , 1fr);
         margin-left: 2px;
     }
+
+    header .conteiner h1:hover {
+        background-color: #567d8c;
+        color: #bf8f65;
+ }
+
+ .btn-neon:hover{
+    box-shadow: 0 0 10px #c7af45, 0 0 40px #c7af45, 0 0 80px #c7af45;
+    transition-delay: 0.5s;
+    border-radius: 10px;
+ }
+
+ .ayuda-move {
+    display: grid;
+    grid-column-start: -2;
+ }
+
     .galeria-text {
         margin-top: 90px;
         margin-bottom: 25px;
